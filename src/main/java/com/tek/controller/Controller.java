@@ -20,7 +20,6 @@ import com.tek.service.LibraryService;
 public class Controller {
 	
 	@Autowired
-	vckxzbvskjdb
 	LibraryService libService;
 	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	public ResponseEntity<Library> get(@PathVariable("name") String name) {
